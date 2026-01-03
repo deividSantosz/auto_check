@@ -23,6 +23,5 @@ def list_car_by_id(
     service = CarService(session)
     car = service.get_by_id(id=id)
     if not car:
-        # Se o service retornar None, lançamos o erro 404 do HTTP
         raise HTTPException(status_code=404, detail="Carro não encontrado")
     return car 

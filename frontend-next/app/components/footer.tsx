@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-xs">
-            © 2024 GuiaCar. Todos os direitos reservados.
+            © 2026 AutoCheck. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
             <span className="text-gray-400 hover:text-red-600 cursor-pointer transition">Instagram</span>

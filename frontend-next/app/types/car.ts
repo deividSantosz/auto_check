@@ -4,7 +4,7 @@ export interface Car {
   modelo: string;
   ano: number;
   preco_fipe: number;
-  imagem_url: string;
+  imagens_url: string[];
   pontos_positivos: string;
   pontos_negativos: string;
   problemas_cronicos: string;

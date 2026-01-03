@@ -51,7 +51,7 @@ export default function Catalogo() {
             <Link href={`/car/${car.id}`} key={car.id} className="group">
               <div className="bg-white rounded-2xl overflow-hidden shadow-sm group-hover:shadow-md group-hover:-translate-y-1 transition-all duration-300 border border-gray-100 h-full flex flex-col">
                 <div className="h-40 bg-gray-200 w-full relative overflow-hidden">
-                  <img src={car.imagem_url} alt={car.modelo} className="w-full h-full object-cover" />
+                  <img src={car.imagens_url[0]} alt={car.modelo} className="w-full h-full object-cover" />
                 </div>
                 
                 <div className="p-5 flex flex-col flex-grow">
